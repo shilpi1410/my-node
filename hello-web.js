@@ -9,8 +9,8 @@ const server = http.createServer((req, res) => {
   res.statusCode = 200;                        // HTTP status: 200 OK
   res.setHeader("Content-Type", "text/html");  // Tell browser it's HTML
   res.end("Hello World.... from Stonetusker — where ideas take shape.!!!!\n");
+  res.end("******** Just a tusk ahead of time  *********\n");
 });
-
 server.listen(PORT, HOST, () => {
   console.log(`Server running at http://${HOST}:${PORT}/`);
 });
